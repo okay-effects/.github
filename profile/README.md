@@ -43,6 +43,7 @@ run(state(0)(reader(5)(counter.tick)))   // (5,5)
 |---|---|
 | **Start here** | |
 | [okay-simple](https://github.com/okay-effects/okay-simple) | Algebraic effects for Scala 3 (3.3 LTS on) and Scala 2.13, one interface. **Released, 0.1.0.** Streams, async, parsing, logic, transactions; interop with ZIO, cats-effect, fs2, kyo, monix |
+| [okay-scala](https://github.com/okay-effects/okay-scala) | Algebraic effects for Scala 3 alone: the same rows, one CEK machine, enums and GADTs, no cast; JVM, Scala.js, Native. **Released, 0.1.0.** okay-simple's interface runs on it |
 | **The kernel and the protocol** | |
 | [okay-core](https://github.com/okay-effects/okay-core) | The kernel, Scala 3: one monad, delimited control, multi-shot continuations as data; interceptors and audit |
 | [okay-kernel](https://github.com/okay-effects/okay-kernel) | The protocol between implementations, with a TCK every implementation passes |
