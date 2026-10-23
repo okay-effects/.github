@@ -46,6 +46,7 @@ run(state(0)(reader(5)(counter.tick)))   // (5,5)
 | [okay-scala](https://github.com/okay-effects/okay-scala) | Algebraic effects for Scala 3 alone: the same rows, one CEK machine, enums and GADTs, no cast; JVM, Scala.js, Native. **Released, 0.1.0.** okay-simple's interface runs on it |
 | **Applications and their screens** | |
 | [okay-ui](https://github.com/okay-effects/okay-ui) | Business screens as data, Scala 3: forms, tables, buttons; the screen is an effect, the toolkit its handler. A reference app, [Expenses — live in the browser](https://okay-effects.github.io/okay-ui/expenses/) |
+| [Coinpath](https://okay-effects.github.io/coinpath-site/) | **Live:** follow a payment in a blockchain, in the browser. Each step with its reason, exchanges named from their own proof-of-reserves lists. Built on okay-scala and okay-ui |
 | [okay-faces](https://github.com/okay-effects/okay-faces) | One program, every face: terminal, Swing, HTML, REST, MCP tools for an agent, Laminar in the browser. **Released, 0.1.0** |
 | **The kernel and the protocol** | |
 | [okay-core](https://github.com/okay-effects/okay-core) | The kernel, Scala 3: one monad, delimited control, multi-shot continuations as data; interceptors and audit |
