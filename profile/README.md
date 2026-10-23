@@ -44,7 +44,7 @@ run(state(0)(reader(5)(counter.tick)))   // (5,5)
 | **Start here** | |
 | [okay-simple](https://github.com/okay-effects/okay-simple) | Algebraic effects for Scala 3 (3.3 LTS on) and Scala 2.13, one interface. **Released, 0.1.1.** Streams, async, parsing, logic, transactions; interop with ZIO, cats-effect, fs2, kyo, monix |
 | [okay-scala](https://github.com/okay-effects/okay-scala) | Algebraic effects for Scala 3 alone: the same rows, one CEK machine, enums and GADTs, no cast; JVM, Scala.js, Native. **Released, 0.1.0.** okay-simple's interface runs on it |
-| [okay-kotlin](https://github.com/okay-effects/okay-kotlin) | Algebraic effects for Kotlin: effects as interfaces and context parameters on the coroutines' own continuations, or as data on okay-scala's CEK machine — one program, two engines. Multi-shot, interception; JVM, JS, native |
+| [okay-kotlin](https://github.com/okay-effects/okay-kotlin) | Algebraic effects for Kotlin: effects as interfaces and context parameters on the coroutines' own continuations, or as data on okay-scala's CEK machine — one program, two engines. Multi-shot, interception; JVM, JS, native. **Released, 0.1.0** |
 | **Applications and their screens** | |
 | [okay-ui](https://github.com/okay-effects/okay-ui) | Business screens as data, Scala 3: forms, tables, buttons; the screen is an effect, the toolkit its handler. A reference app, [Expenses — live in the browser](https://okay-effects.github.io/okay-ui/expenses/) |
 | [Coinpath](https://okay-effects.github.io/coinpath-site/) | **Live:** follow a payment in a blockchain, in the browser. Each step with its reason, exchanges named from their own proof-of-reserves lists. Built on okay-scala and okay-ui |
