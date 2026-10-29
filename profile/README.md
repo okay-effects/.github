@@ -1,5 +1,7 @@
 # okay-effects
 
+**🌐 [okay-effects.github.io](https://okay-effects.github.io)** — the libraries, the live apps, how to start
+
 **Algebraic effects with control and audit.** A program's type says what it may do, a handler decides how it is done,
 and every effect passes a point where it can be recorded, changed or refused. A sensitive effect, such as a payment,
 cannot run outside its audit, and the compiler checks that.
@@ -49,6 +51,7 @@ run(state(0)(reader(5)(counter.tick)))   // (5,5)
 | [okay-ui](https://github.com/okay-effects/okay-ui) | Business screens as data, Scala 3: forms, tables, buttons; the screen is an effect, the toolkit its handler. A reference app, [Expenses — live in the browser](https://okay-effects.github.io/okay-ui/expenses/) |
 | [Coinpath](https://okay-effects.github.io/coinpath/) | **Live:** follow a payment in a blockchain, in the browser. Each step with its reason, exchanges named from their own proof-of-reserves lists. Built on okay-scala and okay-ui |
 | [Okay! Chat](https://okay-chat-edge.okay-effects.workers.dev/) | **Live:** a marketplace chat — say what you offer or need, and it finds the other side and agrees the deal; vacancies from employers' own public boards by keyword and city. Four languages, in the browser and in Telegram ([@OkayChatTestBot](https://t.me/OkayChatTestBot)). Scala 3 on Cloudflare Workers' free plan, the page on okay-ui |
+| [okay-guard](https://github.com/okay-effects/okay-guard) | **Live:** [see and control what an AI agent does](https://okay-effects.github.io/okay-guard/) — every MCP call shown, your policy decides what passes, what is blocked and what waits for you to approve on your phone. The studio runs in the browser with no account; the same policy runs in the local guard (Node or JVM) |
 | [okay-faces](https://github.com/okay-effects/okay-faces) | One program, every face: terminal, Swing, HTML, REST, MCP tools for an agent, Laminar in the browser. **Released, 0.1.0** |
 | **The kernel and the protocol** | |
 | [okay-core](https://github.com/okay-effects/okay-core) | The kernel, Scala 3: one monad, delimited control, multi-shot continuations as data; interceptors and audit |
