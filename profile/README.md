@@ -48,6 +48,7 @@ run(state(0)(reader(5)(counter.tick)))   // (5,5)
 | **Applications and their screens** | |
 | [okay-ui](https://github.com/okay-effects/okay-ui) | Business screens as data, Scala 3: forms, tables, buttons; the screen is an effect, the toolkit its handler. A reference app, [Expenses — live in the browser](https://okay-effects.github.io/okay-ui/expenses/) |
 | [Coinpath](https://okay-effects.github.io/coinpath/) | **Live:** follow a payment in a blockchain, in the browser. Each step with its reason, exchanges named from their own proof-of-reserves lists. Built on okay-scala and okay-ui |
+| [Okay! Chat](https://okay-chat-edge.okay-effects.workers.dev/) | **Live:** a marketplace chat — say what you offer or need, and it finds the other side and agrees the deal; vacancies from employers' own public boards by keyword and city. Four languages, in the browser and in Telegram ([@OkayChatTestBot](https://t.me/OkayChatTestBot)). Scala 3 on Cloudflare Workers' free plan, the page on okay-ui |
 | [okay-faces](https://github.com/okay-effects/okay-faces) | One program, every face: terminal, Swing, HTML, REST, MCP tools for an agent, Laminar in the browser. **Released, 0.1.0** |
 | **The kernel and the protocol** | |
 | [okay-core](https://github.com/okay-effects/okay-core) | The kernel, Scala 3: one monad, delimited control, multi-shot continuations as data; interceptors and audit |
